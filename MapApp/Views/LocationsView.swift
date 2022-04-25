@@ -16,6 +16,16 @@ struct LocationsView: View {
         ZStack {
             Map(coordinateRegion: $vm.mapRegion)
                 .ignoresSafeArea()
+            
+            VStack {
+            
+                Spacer()
+                
+                Text(vm.mapLocatioan.cityName)
+                    .background(Color.blue)
+                    .frame(maxWidth: .infinity)
+
+            }
         }
     }
 }
