@@ -15,6 +15,7 @@
 		440A34F42816FCC400CB6A27 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A34F32816FCC400CB6A27 /* LocationsDataService.swift */; };
 		440A34F62816FDC300CB6A27 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A34F52816FDC300CB6A27 /* LocationsView.swift */; };
 		440A34F8281701AA00CB6A27 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A34F7281701AA00CB6A27 /* LocationsViewModel.swift */; };
+		440A34FA281E8FBF00CB6A27 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A34F9281E8FBE00CB6A27 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		440A34F32816FCC400CB6A27 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		440A34F52816FDC300CB6A27 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		440A34F7281701AA00CB6A27 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		440A34F9281E8FBE00CB6A27 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				440A34F52816FDC300CB6A27 /* LocationsView.swift */,
+				440A34F9281E8FBE00CB6A27 /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				440A34F42816FCC400CB6A27 /* LocationsDataService.swift in Sources */,
+				440A34FA281E8FBF00CB6A27 /* LocationsListView.swift in Sources */,
 				440A34F8281701AA00CB6A27 /* LocationsViewModel.swift in Sources */,
 				440A34DE2816FA2200CB6A27 /* ContentView.swift in Sources */,
 				440A34F62816FDC300CB6A27 /* LocationsView.swift in Sources */,

@@ -18,13 +18,10 @@ struct LocationsView: View {
                 .ignoresSafeArea()
             
             VStack {
-            
-                Spacer()
+                header
+                .padding()
                 
-                Text(vm.mapLocatioan.cityName)
-                    .background(Color.blue)
-                    .frame(maxWidth: .infinity)
-
+                Spacer()
             }
         }
     }
@@ -34,5 +31,37 @@ struct LocationsView_Previews: PreviewProvider {
     static var previews: some View {
         LocationsView()
             .environmentObject(LocationViewModel())
+    }
+}
+
+extension LocationsView {
+    private var header: some View {
+        VStack {
+            Button {
+                vm.toggleLocationsList()
+            } label: {
+                Text(vm.mapLocatioan.name + ", " + vm.mapLocatioan.cityName)
+                    .font(.title2)
+                    .fontWeight(.black)
+                    .foregroundColor(.primary)
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+                    .overlay(alignment: .leading) {
+                        Image(systemName: "arrow.down")
+                            .font(.headline)
+                            .foregroundColor(.primary)
+                            .padding()
+                            .rotationEffect(Angle(degrees: 180))
+                    }
+            }
+
+            if vm.showLocationsList {
+                LocationsListView()
+            }
+            
+        }
+        .background(.thickMaterial)
+        .cornerRadius(20)
+        .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 15)
     }
 }
