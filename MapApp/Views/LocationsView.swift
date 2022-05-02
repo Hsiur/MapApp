@@ -46,12 +46,13 @@ extension LocationsView {
                     .foregroundColor(.primary)
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
+                    .animation(.none, value: vm.mapLocatioan)
                     .overlay(alignment: .leading) {
                         Image(systemName: "arrow.down")
                             .font(.headline)
                             .foregroundColor(.primary)
                             .padding()
-                            .rotationEffect(Angle(degrees: 180))
+                            .rotationEffect(Angle(degrees: vm.showLocationsList ? 180 : 0))
                     }
             }
 

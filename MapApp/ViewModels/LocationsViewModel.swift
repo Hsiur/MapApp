@@ -48,4 +48,11 @@ class LocationViewModel: ObservableObject {
             showLocationsList.toggle()
         }
     }
+    
+    func showNextLocation(location: Location) {
+        withAnimation(.easeInOut) {
+            mapLocatioan = location
+            showLocationsList = false
+        }
+    }
 }
