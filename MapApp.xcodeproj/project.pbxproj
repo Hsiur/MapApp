@@ -18,6 +18,7 @@
 		440A34FA281E8FBF00CB6A27 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A34F9281E8FBE00CB6A27 /* LocationsListView.swift */; };
 		440A34FC281FEA7E00CB6A27 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A34FB281FEA7E00CB6A27 /* LocationPreviewView.swift */; };
 		448690762820112900085AD6 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448690752820112900085AD6 /* LocationMapAnnotationView.swift */; };
+		448690782822EDC100085AD6 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448690772822EDC000085AD6 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		440A34F9281E8FBE00CB6A27 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		440A34FB281FEA7E00CB6A27 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		448690752820112900085AD6 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		448690772822EDC000085AD6 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				440A34F52816FDC300CB6A27 /* LocationsView.swift */,
 				448690752820112900085AD6 /* LocationMapAnnotationView.swift */,
+				448690772822EDC000085AD6 /* LocationDetailView.swift */,
 				440A34FB281FEA7E00CB6A27 /* LocationPreviewView.swift */,
 				440A34F9281E8FBE00CB6A27 /* LocationsListView.swift */,
 			);
@@ -198,6 +201,7 @@
 				440A34DE2816FA2200CB6A27 /* ContentView.swift in Sources */,
 				440A34F62816FDC300CB6A27 /* LocationsView.swift in Sources */,
 				440A34F12816FBDC00CB6A27 /* Location.swift in Sources */,
+				448690782822EDC100085AD6 /* LocationDetailView.swift in Sources */,
 				440A34DC2816FA2200CB6A27 /* MapAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
